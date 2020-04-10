@@ -1,0 +1,24 @@
+This is the java program for solving MDP with value iteration and policy iteration.
+
+The 'classes' directory has the compiled .class files. 'src' is for original .java files. I also put the Jama.1.0.3.jar here
+as it will be used to solve linear Bellman equations.
+
+To run it from command line:
+
+1.	If you want to use a .txt file to input a grid world (the format must be exactly the same as test.txt there), 
+the most convenient way would be name it as test.txt and replace my original test.txt there (Under MDP directory, 
+parallel with src, classes and jar). 
+
+2.	Go into classes directory in your terminal/cmd.
+
+3.	Type “java -cp ../jar/Jama-1.0.3.jar:./ Main” to run the program. The default path for input file is in the main function, 
+so if your test.txt file is already there, no parameter needed here. Note that on Windows, I think the “:” should be replaced 
+with “;” for setting up multiple class paths. 
+
+4.	If the input file is somewhere else in your computer, the input should be “java -cp ../jar/Jama-1.0.3.jar:./ Main $path”. 
+$path here is the absolute path of the input file on your computer.
+
+5.	In case the program cannot read the input file properly, you can manually test the ValueIteration and PolicyIteration. They
+both have a main function with a grid world.
+
+Just type “java ValueIteration” or “java -cp ../jar/Jama-1.0.3.jar:./ PolicyIteration” respectively.
