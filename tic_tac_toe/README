@@ -1,1 +1,2 @@
-THe implementation of minimax and alpha-beta prunning. Designed an agent to play tic-tac-toe with these algorithms.
+The implementation of minimax and alpha-beta prunning. Designed an agent to play tic-tac-toe with these algorithms.
+The main part is in Minimax.java
