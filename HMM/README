@@ -1,0 +1,11 @@
+This project is to solve a dice problem with Hidden Markov Model, a description for the problem could be found there as well.
+
+This program used Viterbi algorithm to find the most likely sequence of states given an observation and a HMM.
+
+The complied .class files are in the classes directory, and the original .java files are in the src directory. There's a sample
+input file named "test.txt". The input format MUST BE THE SAME as that.
+
+To run the program, you can either directly input "java Main" or "java Main $path", where $path is the absolute path of your 
+input file. The default path for test.txt is "../test.txt", FYI.
+
+
