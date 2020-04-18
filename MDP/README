@@ -12,8 +12,8 @@ parallel with src, classes and jar).
 2.	Go into classes directory in your terminal/cmd.
 
 3.	Type “java -cp ../jar/Jama-1.0.3.jar:./ Main” to run the program. The default path for input file is in the main function, 
-so if your test.txt file is already there, no parameter needed here. Note that on Windows, I think the “:” should be replaced 
-with “;” for setting up multiple class paths. 
+so if your test.txt file is already there, no parameter needed here. Note that on Windows, the “:” should be replaced with “;” 
+for setting up multiple class paths. (Google that before trying)
 
 4.	If the input file is somewhere else in your computer, the input should be “java -cp ../jar/Jama-1.0.3.jar:./ Main $path”. 
 $path here is the absolute path of the input file on your computer.
