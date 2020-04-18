@@ -1,0 +1,12 @@
+Consider acasinogame, where the dealer is a three-sided dice with labels 1, 2, and 3. The dealer has threeloaded dice D1,D2 D3.
+For die Di, the probability of rolling the number j is pij. At each turn, the dealer must decide whether to:  (1) keep the same
+die; (2) switch to one of the other two dice randomly. She chooses (1) with probability p and (2) with probability 1-p. At the 
+beginning the dealer chooses any of 3 dice with equal probability.
+
+
+
+Expected Output
+•Give an HMM for this situation. Specify the states, the transition probabilities and the emission probabilities. 
+
+•Suppose that you observe the following sequence of die rolls: X.  Find a sequence of states which best explains the sequence 
+of rolls. What is the probability of this sequence?
