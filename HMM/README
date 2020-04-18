@@ -1,4 +1,4 @@
-This project is to solve a dice problem with Hidden Markov Model, a description for the problem could be found there as well.
+This project is to solve a dice problem with Hidden Markov Model, a description for the problem could be found here as well.
 
 This program used Viterbi algorithm to find the most likely sequence of states given an observation and a HMM.
 
